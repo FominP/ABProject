@@ -43,7 +43,7 @@ ab_project/
 
 ### Локальная установка библиотеки
 ```bash
-git clone https://github.com/FominP/ab_testing.git
+git clone https://github.com/FominP/ABProject.git
 cd ab_testing
 pip install ./ab_test_analyzer
 ```
