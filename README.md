@@ -42,22 +42,12 @@ ABProject/
 
 ### Локальная установка библиотеки
 ```bash
-git clone https://github.com/FominP/ABProject.git
-cd ab_testing
-pip install ./ab_test_analyzer
+pip install git+https://github.com/FominP/ABProject.git#subdirectory=ab_test_analyzer
 ```
-
-Запуск калькулятора (локально)
-```bash
-cd calculator
-pip install -r ../requirements.txt   # flask, numpy, scipy
-python app.py
-```
-Затем откройте http://127.0.0.1:5000
 
 ### Использование библиотеки напрямую
 ```python
-from ab_test_analyzer.core import ztest_proportions, check_srm
+from ab_test_analyzer.core import ztest_proportions
 
 # Z-тест
 res = ztest_proportions(conv_control=200, n_control=1000, conv_test=250, n_test=1000)
@@ -67,10 +57,6 @@ print(f"p-value = {res['p_value']:.4f}")
 srm = check_srm(users_control=1050, users_test=950)
 print(f"SRM p-value = {srm['p_value']:.4f}")
 ```
-
-## 🚀 Деплой (как работает онлайн-версия)
-Калькулятор запущен на PythonAnywhere (бесплатный тариф).
-При повторном запросе первый запуск может быть чуть медленнее (холодный старт).
 
 ## 🤝 Вклад (Contributing)
 Проект создан для самообучения, но я буду рад ISSUE или советам по улучшению статистической части.
