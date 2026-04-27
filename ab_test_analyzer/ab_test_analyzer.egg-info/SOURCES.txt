@@ -1,4 +1,6 @@
 setup.py
+ab_test_analyzer/__init__.py
+ab_test_analyzer/core.py
 ab_test_analyzer.egg-info/PKG-INFO
 ab_test_analyzer.egg-info/SOURCES.txt
 ab_test_analyzer.egg-info/dependency_links.txt
