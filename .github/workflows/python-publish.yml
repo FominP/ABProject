@@ -22,7 +22,7 @@ jobs:
     
     - name: Build package
       run: |
-        cd ab_test_analyzer   # переходим в папку с setup.py
+        cd ab_test_analyzer
         python -m build
     
     - name: Publish to PyPI
