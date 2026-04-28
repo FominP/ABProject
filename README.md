@@ -32,14 +32,6 @@ ABProject/
 
 │ └── setup.py
 
-├── calculator/ # Flask-калькулятор (код)
-
-│ ├── app.py
-
-│ ├── templates/
-
-│ └── static/
-
 ├── tests/ # Модульные тесты (pytest)
 
 │ └── test_core.py
