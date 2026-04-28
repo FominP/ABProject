@@ -1,4 +1,4 @@
-# 📊 AB Test Analyzer & Calculator
+# 📊 AB Test Analyzer
 
 > Пет-проект: Python-библиотека для анализа A/B-тестов
 
