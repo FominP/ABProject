@@ -22,25 +22,18 @@
 
 ## 🗂️ Структура репозитория
 
+```text
 ABProject/
-
 ├── ab_test_analyzer/ # Библиотека (со своим setup.py)
-
 │ ├── init.py
-
 │ ├── core.py # Все статистические функции
-
 │ └── setup.py
-
 ├── tests/ # Модульные тесты (pytest)
-
 │ └── test_core.py
-
 ├── requirements.txt # Общие зависимости
-
 ├── pytest.ini # Настройки pytest
-
 └── README.md
+```
 
 ## 🛠️ Установка и использование
 
